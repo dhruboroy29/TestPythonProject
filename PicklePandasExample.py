@@ -3,7 +3,7 @@ import pandas
 from sklearn import model_selection
 from sklearn.linear_model import LogisticRegression
 import pickle
-
+#
 url = "https://archive.ics.uci.edu/ml/machine-learning-databases/pima-indians-diabetes/pima-indians-diabetes.data"
 names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
 dataframe = pandas.read_csv(url, names=names)
