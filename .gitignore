@@ -56,3 +56,5 @@ fabric.properties
 # Saved models
 *.sav
 
+#Pycache
+__pycache__/
