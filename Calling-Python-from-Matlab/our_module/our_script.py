@@ -14,5 +14,5 @@ def matrix_func(matfile):
     matrix = sio.loadmat(matfile)
     print('Passed matrix: ', matrix)
     print('Inspecting matrix: ', sio.whosmat(matfile))
-    print('Matrix mean: ', numpy.mean(matrix.mat))
-    print('Matrix median: ', numpy.median(matrix.mat))
+    print('Matrix mean: ', numpy.mean(matrix['mat']))
+    print('Matrix median: ', numpy.median(matrix['mat']))
