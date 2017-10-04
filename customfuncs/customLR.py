@@ -51,7 +51,7 @@ weights = np.zeros(X.shape[1])
 eps = 1e-15
 
 start_time = time.time()
-for i in range(1000000):
+for i in range(100000):
     if i % 10000 == 0:
         print('Iteration %-4d | Loss: %.4f' % (i, custom_loss_given_weights(weights)))
     weights -= gradient(weights) * .01  # .01 being the learning rate
