@@ -1,8 +1,8 @@
-'''
+"""
 Author: Will Wolf
 Source: http://willwolf.io/2015/11/18/so-you-want-to-implement-a-custom-loss-function/
 Jupyter Notebook link: http://nbviewer.jupyter.org/github/cavaunpeu/automatic-differentiation/blob/master/automatic_differentiation.ipynb#Define-X,-y,-initial-weights,-and-epsilon
-'''
+"""
 
 from autograd import grad
 import autograd.numpy as np
