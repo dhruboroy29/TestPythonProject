@@ -4,9 +4,9 @@ Source: http://willwolf.io/2015/11/18/so-you-want-to-implement-a-custom-loss-fun
 Jupyter Notebook link: http://nbviewer.jupyter.org/github/cavaunpeu/automatic-differentiation/blob/master/automatic_differentiation.ipynb#Define-X,-y,-initial-weights,-and-epsilon
 '''
 
-import pandas as pd
 from autograd import grad
 import autograd.numpy as np
+import time
 
 
 def wTx(w, x):
