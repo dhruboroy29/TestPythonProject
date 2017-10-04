@@ -50,9 +50,12 @@ y = np.array([1., 1., 0., 0., 1., 1., 1., 1., 0., 0.])
 weights = np.zeros(X.shape[1])
 eps = 1e-15
 
+start_time = time.time()
 for i in range(100000):
     if i % 10000 == 0:
         print('Iteration %-4d | Loss: %.4f' % (i, custom_loss_given_weights(weights)))
     weights -= gradient(weights) * .01
+end_time = time.time()
 
+print("Elapsed time was %g seconds" % (end_time - start_time))
 print('Final weights: ', weights)
