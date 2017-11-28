@@ -1,5 +1,3 @@
-#!/home/roy.174/anaconda3/bin/python
-
 """
 ============
 Bezier Curve
