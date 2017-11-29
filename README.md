@@ -1,2 +1,2 @@
 # TestPythonProject
-Uses Python 2.7
+Uses Python ~~2.7~~ 3.5
