@@ -26,9 +26,9 @@ print 'MFCC shape: ', np.shape(mfcc_8k)
 np.save('Roland-JV-2080-Pick-Bass-C2_mfcc_8k.npy', mfcc_8k)
 
 # Read .npy for test
-print '##################'
+print '#############'
 print '# Test Read #'
-print '##################'
+print '#############'
 mfcc_read = np.load('Roland-JV-2080-Pick-Bass-C2_mfcc_8k.npy')
 print(np.shape(mfcc_read))
 print(mfcc_read)
